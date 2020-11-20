@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 400px;
+}
+/* index */
+.menu {
+  margin: 0 65px;
+  width: 250px;
+}
+
+.result {
+  width: 30px;
+}
+
+/* scouting */
+.btn {
+  border: none;
+  color: white;
+  color: black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e9242b;
+}
+
+.header {
+  background-color: rgb(241, 241, 241);
+}
+
+.match {
+  padding: 20px 0px 5px 30px;
+}
+
+.team {
+  padding: 0px 0px 0px 25px;
+}
+
+.blue-bd {
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.red-bd {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.strategy {
+  background-color: black;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0px 0px 25px;
+}
+
+.ck-box {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border: none;
+  background-color: rgb(238, 238, 238);
+}
+
+.ck-box:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.str-txt {
+  margin-left: 30px;
+}
+
+.comments {
+  border-radius: 5px;
+}
+
+.search {
+  width: 300px;
+  margin: 0 40px;
+}
+
+.title {
+  text-align: center;
+}
+
+.autonomous {
+  background-color: gray;
+}
+
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: black;
+}
+
+.content {
+  padding: 15px 20px;
+  display: none;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.first-row {
+  margin: 30px 0px;
+}
+
+.second-row {
+  margin: 30px 0px;
+}
+
+.third-row {
+  margin: 30px 00px;
+}
+
+/* input[type="button"] {
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  margin: 0px 30px;
+  cursor: pointer;
+} */
+
+.field-btn {
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  margin: 0px 30px;
+  cursor: pointer;
+}
+
+/* .field-btn:after {
+  background-color: #e9242b;
+} */
+
+.field-btn:hover,
+.field-btn:visited {
+  background-color: #ce7275;
+}
+
+.btn-1 {
+  background-color: #e9242b;
+  margin: 0px 30px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-2 {
+  background-color: rgb(158, 158, 158);
+  margin: 0px 30px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-3 {
+  background-color: black;
+  margin: 0px 30px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.three-btn {
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+  color: black;
+  background-color: #e9242b;
+  transition-duration: 0.4s;
+  width: 70px;
+  height: 70px;
+  margin: 5% 25px;
+}
+
+#triangle-up-r {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid red;
+}
+
+#triangle-down-r {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 70px solid red;
+}
+
+#triangle-up-b {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid blue;
+}
+
+#triangle-down-b {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 70px solid blue;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid black;
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 70px solid black;
+}
+
+.player-controll {
+  background-color: gray;
+}
+
+.p-con {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+th {
+  padding: 2px 60px;
+}
